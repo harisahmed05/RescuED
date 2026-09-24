@@ -55,6 +55,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           generate_release_notes: 'true'
+          prerelease: ${{ contains(github.ref_name, '-') }}
           files: |
             artifacts/*.jar
             README.md
@@ -69,7 +70,7 @@ jobs:
 
             **Run the JAR:**
             ```bash
-            java -jar rescued-simulation-${{ github.ref_name }}.jar
+            java -jar rescued-simulation-${{ github.ref_name.replace('v', '') }}.jar
             ```
 
             See the [README](../../blob/${{ github.ref_name }}/README.md) for full gameplay, controls, and configuration.
