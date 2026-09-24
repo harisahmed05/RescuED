@@ -25,6 +25,12 @@
   <img src="docs/screenshot.png" alt="RescuED gameplay screenshot" width="800">
 </p>
 
+<p align="center">
+  <a href="../../releases/tag/v0.1.0-beta"><img src="https://img.shields.io/github/v/release/harisahmed05/RescuED?include_prereleases&style=for-the-badge&logo=github&logoColor=white&label=Download%20v0.1.0-beta" alt="Download RescuED v0.1.0-beta"></a>
+</p>
+
+<p align="center"><sub>All releases (including future versions): <a href="../../releases">github.com/harisahmed05/RescuED/releases</a></sub></p>
+
 ---
 
 ## Table of Contents
