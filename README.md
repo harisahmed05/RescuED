@@ -11,6 +11,9 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 ![Status](https://img.shields.io/badge/status-0.1.0--beta-yellow)
 
+[![Build](https://img.shields.io/github/actions/workflow/status/harisahmed05/RescuED/ci.yml?branch=main&style=flat&logo=githubactions&logoColor=white&label=build)](../../actions)
+[![Release](https://img.shields.io/github/v/release/harisahmed05/RescuED?include_prereleases&style=flat&logo=github&logoColor=white)](../../releases/latest)
+
 > ⚠️ **Beta release (`v0.1.0-beta`).** This is an early work-in-progress:
 > gameplay is playable and balanced, but expect rough edges, balance
 > changes, and breaking changes before `1.0.0`. Bug reports and feature
