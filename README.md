@@ -131,6 +131,9 @@ mkdir -p build
 javac -d build src/main/java/com/rescued/simulation/*.java
 cp -r src/main/resources build/
 java -cp build com.rescued.simulation.Main
+
+# Or, with running the Java 22+ source launcher directly:
+java -cp src/main/resources src/main/java/com/rescued/simulation/Main.java
 ```
 
 That's it — no `npm install`, no Gradle wrapper, no Docker. See [How to Build and Run](#how-to-build-and-run) for IDE instructions and troubleshooting.
